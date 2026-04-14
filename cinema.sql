@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS Customer (
 );
 
 -- =========================================
--- BẢNG BOOKING (GIỐNG DOI HINH)
+-- BẢNG BOOKING 
 -- =========================================
 CREATE TABLE IF NOT EXISTS Booking (
     showtime_id INT,
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS Booking (
 );
 
 -- =========================================
--- BẢNG BOOKING DETAIL (GIỐNG THAM GIA)
+-- BẢNG BOOKING DETAIL
 -- =========================================
 CREATE TABLE IF NOT EXISTS BookingDetail (
     showtime_id INT,
